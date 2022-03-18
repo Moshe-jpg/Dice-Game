@@ -1,6 +1,6 @@
 section {
   font-family: 'Smokum', cursive;
-  height: 750px;
+  height: 100vh;
   text-align: center;
   padding: 5% 15%;
   position: relative;
@@ -55,7 +55,7 @@ a {
 }
 
 .header {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.5;
 }
 
