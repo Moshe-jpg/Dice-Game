@@ -1,0 +1,89 @@
+section {
+  font-family: 'Smokum', cursive;
+  height: 750px;
+  text-align: center;
+  padding: 5% 15%;
+  position: relative;
+  width: 100%;
+}
+
+a {
+  width: 25%;
+}
+
+.flex-container {
+  width: 100%;
+}
+
+.img1, .img2 {
+  width: 5rem;
+}
+
+.img1 {
+  position: relative;
+  top: 18%;
+}
+
+
+.img1:hover {
+  transform: rotate(15deg);
+}
+
+.img2:hover {
+  transform: rotate(25deg);
+}
+
+@media (max-width:515px){
+  .img2:hover {
+    transform: rotate(15deg);
+  }
+}
+@media (max-width:400px) {
+  img {
+    width: 30%
+  }
+}
+
+.header {
+  font-size: 4rem;
+}
+
+.header-text {
+  font-size: 2rem;
+}
+
+.header, .header-text {
+  color: #ffffff;
+  padding-top: 3%;
+}
+
+.flex1, .flex2,  .flex-container > div {
+  margin: 3%;
+}
+
+.player {
+  font-family: 'Pacifico', cursive;
+  margin: 0 6%;
+}
+
+#player1:hover {
+  color: #F0B89C;
+}
+
+#player2:hover {
+  color: #F0B89C;
+}
+
+.dice {
+  padding: 3%;
+}
+
+#die1, #die2 {
+  width: 45%;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
