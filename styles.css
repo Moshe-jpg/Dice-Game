@@ -2,9 +2,15 @@ section {
   font-family: 'Smokum', cursive;
   height: 100vh;
   text-align: center;
-  padding: 5% 15%;
+  padding: 45px 15%;
   position: relative;
   width: 100%;
+}
+
+@media (max-width: 500px){
+  section {
+  padding: 75px 5%;
+}
 }
 
 a {
@@ -45,12 +51,12 @@ a {
 }
 @media (max-width:500px){
   #header {
-  font-size: 3.5rem;
+  font-size: xx-large;
 }
 }
 @media (max-width:500px){
   #header-text{
-  font-size: 2rem;
+  font-size: x-large;
 }
 }
 
