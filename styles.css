@@ -10,6 +10,7 @@ section {
 
 @media (max-width: 500px){
   section {
+    height: 600px;
   padding: 45% 5%;
 }
 }
@@ -52,12 +53,12 @@ a {
 }
 @media (max-width:600px){
   #header {
-  font-size: 5rem;
+  font-size: 7.5rem;
 }
 }
 @media (max-width:600px){
   #header-text{
-  font-size: 3.5rem;
+  font-size: 5.5rem;
 }
 }
 
