@@ -50,14 +50,14 @@ a {
     width: 30%
   }
 }
-@media (max-width:500px){
+@media (max-width:600px){
   #header {
-  font-size: xx-large;
+  font-size: 5rem;
 }
 }
-@media (max-width:500px){
+@media (max-width:600px){
   #header-text{
-  font-size: x-large;
+  font-size: 3.5rem;
 }
 }
 
