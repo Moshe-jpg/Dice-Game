@@ -42,7 +42,7 @@ a {
 
 @media (max-device-width:515px) {
   .img2:hover {
-    transform: rotate(15deg);
+    transform: rotate(30deg);
   }
 }
 
