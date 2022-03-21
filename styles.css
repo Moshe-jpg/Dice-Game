@@ -55,14 +55,18 @@ a {
 @media (max-device-width:600px) {
   #header {
     font-size: 9rem;
+    padding-right: 5%;
     position: relative;
     left: 8%;
+
   }
 }
 
 @media (max-device-width:600px) {
   #header-text {
     font-size: 6rem;
+    position: relative;
+    right: 8%;
   }
 }
 
