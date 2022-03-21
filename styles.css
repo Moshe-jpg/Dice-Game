@@ -8,11 +8,12 @@ section {
   width: 100%;
 }
 
-@media (max-device-width: 500px){
+@media (max-device-width: 500px) {
   section {
     max-height: 100vh;
-  padding: 45% 5%;
-}
+    max-width: 100vh;
+    padding: 25% 0;
+  }
 }
 
 a {
@@ -32,7 +33,6 @@ a {
   top: 18%;
 }
 
-
 .img1:hover {
   transform: rotate(15deg);
 }
@@ -41,25 +41,28 @@ a {
   transform: rotate(25deg);
 }
 
-@media (max-device-width:515px){
+@media (max-device-width:515px) {
   .img2:hover {
     transform: rotate(15deg);
   }
 }
+
 @media (max-device-width:400px) {
   img {
     width: 30%
   }
 }
-@media (max-device-width:600px){
+
+@media (max-device-width:600px) {
   #header {
-  font-size: xx-large;
+    font-size: xx-large;
+  }
 }
-}
-@media (max-device-width:500px){
-  #header-text{
-  font-size: x-large;
-}
+
+@media (max-device-width:500px) {
+  #header-text {
+    font-size: x-large;
+  }
 }
 
 .header {
@@ -72,13 +75,12 @@ a {
   line-height: 1.5;
 }
 
-
 .header, .header-text {
   color: #ffffff;
   padding-top: 3%;
 }
 
-.flex1, .flex2,  .flex-container > div {
+.flex1, .flex2, .flex-container>div {
   margin: 3%;
 }
 
@@ -103,14 +105,13 @@ a {
   width: 45%;
 }
 
-
 .flex-container {
   display: flex;
   justify-content: center;
 }
 
-@media (max-device-width: 550px){
-  .flex-container{
+@media (max-device-width: 550px) {
+  .flex-container {
     padding-top: 10% 5% 0;
     margin-top: 10%;
   }
