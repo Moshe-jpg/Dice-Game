@@ -82,7 +82,7 @@ a {
 }
 
 .flex1, .flex2, .flex-container>div {
-  margin: 3%;
+  margin: 3% 0;
 }
 
 .player {
